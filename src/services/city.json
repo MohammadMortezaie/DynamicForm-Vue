@@ -1,0 +1,15 @@
+[
+    { "id": 1, "country": "America", "state": "Texas" },
+    { "id": 2, "country": "America", "state": "NewMexico" },
+    { "id": 3, "country": "America", "state": "Montana" },
+    { "id": 4, "country": "France", "state": "Normandy" },
+    { "id": 5, "country": "France", "state": "Paris" },
+    { "id": 6, "country": "France", "state": "Occitanie" },
+    { "id": 7, "country": "Holland", "state": "Köln" },
+    { "id": 8, "country": "Holland", "state": "Brüksel" },
+    { "id": 9, "country": "China", "state": "Gansu" },
+    { "id": 10, "country": "China", "state": "Hubei" },
+    { "id": 11, "country": "China", "state": "Hainan" },
+    { "id": 12, "country": "Iraq", "state": "Erbil" },
+    { "id": 13, "country": "Iraq", "state": "Bagdat" }
+]

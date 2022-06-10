@@ -1,10 +1,23 @@
 <template>
     <div>
-        <v-select :items="countries" v-model="selectedCountry" @change="getCities" label="Select Country"
-            item-text="country" item-value="country"></v-select>
+        <v-select
+            :items="countries"
+            v-model="selectedCountry"
+            @change="getCities"
+            label="Select Country"
+            item-text="country"
+            item-value="country"
+        ></v-select>
 
-        <v-select :items="cities" v-model="selectedCity" :disabled="!countryChange" @change="setCity"
-            label="Select City" item-text="state" item-value="state"></v-select>
+        <v-select
+            :items="cities"
+            v-model="selectedCity"
+            :disabled="!countryChange"
+            @change="setCity"
+            label="Select City"
+            item-text="state"
+            item-value="state"
+        ></v-select>
     </div>
 </template>
 
@@ -25,7 +38,7 @@ export default {
         };
     },
     components: {
-        VSelect
+        VSelect,
     },
     methods: {
         getCities() {
@@ -40,8 +53,7 @@ export default {
         },
         setCity() {
             bus.$emit("cityChange", this.selectedCity);
-
-        }
+        },
     },
 };
 </script>
